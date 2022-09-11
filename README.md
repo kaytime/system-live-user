@@ -1,4 +1,4 @@
-# Kaytime Live User [![Build Status](https://travis-ci.org/kaytime/kaytime-live-user.svg?branch=master)](https://travis-ci.org/kaytime/kaytime-live-user)
+# Kaytime Live User [![PackageCloud.](https://github.com/kaytime/system-live-user/actions/workflows/build.yml/badge.svg)](https://github.com/kaytime/system-live-user/actions/workflows/build.yml)
 
 Package to create the system's default user.
 
