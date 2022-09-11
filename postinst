@@ -1,0 +1,12 @@
+#! /bin/bash
+
+set -x
+
+echo "==> Adding user 'kaytime'."
+
+groupadd sambashare
+groupadd wheel
+
+useradd -G adm,cdrom,dip,plugdev,bluetooth,lpadmin,sambashare,input,wheel -m kaytime
+
+printf "%s\n" kaytime kaytime | passwd kaytime
