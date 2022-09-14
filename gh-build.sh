@@ -3,14 +3,12 @@
 apt-get --yes update
 apt-get --yes install wget equivs curl git
 
-git_commit=$(git rev-parse --short HEAD)
-
 printf >config "%s\n" \
 	"Section: misc" \
 	"Priority: optional" \
 	"Homepage: https://kaytime.github.io" \
 	"Package: system-live-user" \
-	"Version: $PROJECT_VERSION" \
+	"Version: 0.1.0+alpha" \
 	"Maintainer: Steph DGenius <stephanetse@gmail.com>" \
 	"Depends: adduser" \
 	"Architecture: all" \
