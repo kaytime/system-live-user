@@ -10,7 +10,7 @@ printf >config "%s\n" \
 	"Priority: optional" \
 	"Homepage: https://kaytime.github.io" \
 	"Package: system-live-user" \
-	"Version: $git_commit" \
+	"Version: $PROJECT_VERSION" \
 	"Maintainer: Steph DGenius <stephanetse@gmail.com>" \
 	"Depends: adduser" \
 	"Architecture: all" \
